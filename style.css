@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("https://images.pexels.com/photos/76969/cold-front-warm-front-hurricane-felix-76969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* #main{
+    padding: 20px 70px;
+    color: whitesmoke;
+    
+}
+
+#main{
+    background-color: rgba(24, 24 , 27, 0.8);
+    padding: 25px;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    color: white;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.secondMain{
+    display: flex;
+} */
+
+#secondMain,
+#main  {
+    display: flex;
+    background-color: rgba(24, 24, 27, 0.8);
+    width: 60%;
+    color: white;
+    justify-content: center;
+}
+
+#main{
+    width: 70%;
+    margin: auto;
+}
+
+
+.wItems {
+    margin: 10px;
+    padding: 5px;
+    background-color: rgba(24, 24, 27, 0.8);
+    border: 2px solid white;
+    border-radius: 4px;
+}
+
+.curTemp{
+    margin: 10px;
+    padding: 5px;
+    background-color: rgba(24, 24, 27, 0.8);
+}
+
+
+.wetherforcast {
+    text-align: center;
+}
+
+.day {
+    background-color: dimgrey;
+    border-radius: 4px;
+    padding: 2px;
+    text-align: center;
+}
+
+.time{
+    font-size: 140px;
+    color: white;
+}
+
+.In{
+    margin-left: 5px;
+    /* background-color: rgba(24, 24, 27, 0.8); */
+}
+
+#city{
+    padding: 5px;
+}
+
+#btn{
+    padding: 5px;
+}
