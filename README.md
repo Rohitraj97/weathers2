@@ -7,7 +7,7 @@ This project is done to check 7-days weather-Report of a city
 
 This is the API for this project : https://api.openweathermap.org/data/2.5/forecast?q=${city}&cnt=${7}&appid=${key}&units=metric
 
-[Deployed link](https://jovial-quokka-e968bf.netlify.app/)
+[Deployed link](https://graceful-twilight-b9d83b.netlify.app)
 
 
 
